@@ -15,8 +15,6 @@
         <div id="navbarNav" class="collapse navbar-collapse">
           <ul class="navbar-nav">
             <li class="nav-item active"><a href="#" class="nav-link text-light">台北市</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-light">新北市</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-light">台中市</a></li>
             <li class="nav-item"><a href="#" class="nav-link text-light">高雄市</a></li>
           </ul>
         </div>
@@ -29,6 +27,7 @@
             <button id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn btn-Secondary dropdown-toggle">選擇行政區</button>
             <div aria-labelledby="dropdownMenuButton" class="dropdown-menu bg-Secondary"><a href="#stopPoint" v-for="zone in selectorZone" @click="zoneDataInput(zone)" class="dropdown-item">{{ zone }}</a></div>
           </div>
+          <div class='alert'>更新頻率: 5分鐘一次 ；資料來源:臺北市政府 消防局EOC 開放資料專區</div>
         </div>
       </div>
       <div id="stopPoint"></div>

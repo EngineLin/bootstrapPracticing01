@@ -68,6 +68,11 @@ table {
     width: 100%; }
   #header .dropdown-menu {
     width: 100%; }
+  #header .alert {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color:#fff; }
 
 #map {
   margin: 20px auto 0;
